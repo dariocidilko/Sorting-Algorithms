@@ -16,6 +16,7 @@ The project is designed for learning, experimentation and comparing how differen
 # Compilation & Running
 
 Compile the project: gcc main.c src/*.c -o sorter
+
 Run: ./sorter
 
 # Custom Dataset Generation
