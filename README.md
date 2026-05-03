@@ -15,13 +15,16 @@ The project is designed for learning, experimentation and comparing how differen
 
 # Compilation & Running
 
-Compile the project: gcc main.c src/*.c -o sorter
+Compile the project: 
+- gcc main.c src/*.c -o sorter
 
-Run: ./sorter
+Run the project: 
+- ./sorter
 
 # Custom Dataset Generation
 
-The repository includes a Python script: gen_custom-dataset.py
+The repository includes a Python script: 
+- gen_custom-dataset.py
 
 This script generates a .csv file containing random integers.
 
@@ -30,8 +33,10 @@ You can customize:
 - Number of integers (N)
 - Value range (LOW, HIGH)
 
-Example usage: python gen_custom-dataset.py
+Example usage: 
+- python gen_custom-dataset.py
 
-This will create: Custom-Numbers.csv
+This will create: 
+- Custom-Numbers.csv
 
 You can then place this inside the 'data' folder and use this file as input in main.c.
