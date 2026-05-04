@@ -20,6 +20,7 @@ The project is designed for learning, experimentation and comparing how differen
 | Bubble Sort    | O(n)     | O(n²)       | O(n²)      |
 | Cocktail Sort  | O(n)     | O(n²)       | O(n²)      |
 | Insertion Sort | O(n)     | O(n²)       | O(n²)      |
+| Shell Sort     | O(n log n)| O(n²)      | O(n²)      |
 | Selection Sort | O(n²)    | O(n²)       | O(n²)      | 
 | Heap Sort      | O(n log n)| O(n log n) | O(n log n) |
 | Quick Sort     | O(n log n)| O(n log n) | O(n²)      |
