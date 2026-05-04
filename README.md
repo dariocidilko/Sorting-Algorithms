@@ -6,10 +6,11 @@ This project contains implementations of the following sorting algorithms:
 1. Bubble Sort
 2. Cocktail Sort (Bonus)
 3. Insertion Sort
-4. Selection Sort
-5. Heap Sort
-6. Quick Sort
-7. Merge Sort
+4. Shell Sort (Bonus)
+5. Selection Sort
+6. Heap Sort
+7. Quick Sort
+8. Merge Sort
 
 The project is designed for learning, experimentation and comparing how different sorting algorithms perform on the same dataset.
 
