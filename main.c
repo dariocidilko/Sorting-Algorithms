@@ -43,10 +43,11 @@ int main() {
     printf("1. Bubble Sort \n");
     printf("2. Cocktail Sort \n");
     printf("3. Insertion Sort \n");
-    printf("4. Selection Sort \n");
-    printf("5. Heap Sort \n");
-    printf("6. Quick Sort \n");
-    printf("7. Merge Sort \n");
+    printf("4. Shell Sort \n");
+    printf("5. Selection Sort \n");
+    printf("6. Heap Sort \n");
+    printf("7. Quick Sort \n");
+    printf("8. Merge Sort \n");
 
     printf("Enter your choice: \n");
     scanf("%d", &choice);
@@ -63,20 +64,24 @@ int main() {
         case 3:
             insertionSort(arr, n);
             break;
-        
+
         case 4:
-            selectionSort(arr, n);
+            shellSort(arr, n);
             break;
         
         case 5:
-            heapSort(arr, n);
+            selectionSort(arr, n);
             break;
         
         case 6:
-            quickSort(arr, 0, n - 1);
+            heapSort(arr, n);
             break;
         
         case 7:
+            quickSort(arr, 0, n - 1);
+            break;
+        
+        case 8:
             mergeSort(arr, 0, n - 1);
             break;
 
